@@ -46,5 +46,4 @@ jobs:
           dotnet restore C:\Users\Tran Trung Ta\source\repos\Testcode\TestDemoC-Sharp.sln
           dotnet test C:\Users\Tran Trung Ta\source\repos\Testcode\TestDemoC-Sharp.sln --collect
           dotnet build C:\Users\Tran Trung Ta\source\repos\Testcode\TestDemoC-Sharp.sln --configuration release
-          
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
